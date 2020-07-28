@@ -1,0 +1,106 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-al {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/image/kapal.png");
+    background-size: cover;
+    height: 100vh;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #343434;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #343434;
+}
+
+.input-txt {
+    width: 279px;
+    height: 40px;
+    margin-bottom: 16px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #343434;
+    border-radius: 5px;
+    color: #343434;
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn {
+    width: 299px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.btn-login {
+    border: none;
+    margin-top: 20px;
+    background-color: #0093E9;
+    color: white;
+}
+
+.btn-register {
+    border-width: 2px;
+    border-color: #0093E9;
+    color: #0093E9;
+    background-color: white;
+}
+
+.btn-pengaduan {
+    border: none;
+    background-color: #fff;
+    color: #0093E9;
+}
+
+.error {
+    color: rgba(255, 0, 0, 0.7);
+    padding: 1px 8px 1px 8px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    
+}
